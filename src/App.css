@@ -1,6 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 .App {
   text-align: center;
+  margin-top: 5%;
+  font-weight: 1000;
 }
+.text {
+  text-align: center;
+  margin-top: 2%;
+}
+.textl:hover{
+  background-color: #61dafb;
+}
+body{
+  font-family: "Montserrat", sans-serif; 
+  transition: all ease 1600ms;
+}
+input[id=cb] {
+  display: none;
+}
+
+input[id=cb]:checked~p.strikethrough {
+  text-decoration: line-through;
+  color: red;
+}
+
+label {
+  border: thin solid darkgray;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
 
 .App-logo {
   height: 40vmin;
